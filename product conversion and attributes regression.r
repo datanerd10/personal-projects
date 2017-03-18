@@ -1,7 +1,8 @@
 #--------------------------------------------------------------------------
 # Shivani Sheth 
 # R script for determining variables that influence CVR
-# June 13, 2016
+# The regression model looks for the right mix of product attributes that 
+# are associated with product conversion, either positively or negatively (or both)
 # Re-do  Aug 17, 2016
 #--------------------------------------------------------------------------
 
