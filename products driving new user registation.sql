@@ -2,7 +2,7 @@
 -- the output can be visualized to illustrate which products are responsible for new user registration
 
 SELECT	 [Customer ID]
-				,[Order Date]
+	,[Order Date]
         ,[Platform]
         ,[Channel]
         ,[Product Code]
@@ -11,14 +11,14 @@ SELECT	 [Customer ID]
         ,[Product Category]
         ,[Destination Name]
         ,[Marketing Campaign]
-				,sum([Gross Bookings])	as [Gross Bookings]
-				,sum([Gross Revenue])	as [Gross Revenue]	
-				,sum([Gross Orders])	as [Gross Orders]
-				,sum([Gross Pax])		as [Gross Pax]
-				,sum([Net Bookings])	as [Net Bookings]
-				,sum([Net Revenue])		as [Net Revenue]
-				,sum([Net Orders])		as [Net Orders]
-				,sum([Net Pax])			as [Net Pax]
+	,sum([Gross Bookings])	as [Gross Bookings]
+	,sum([Gross Revenue])	as [Gross Revenue]	
+	,sum([Gross Orders])	as [Gross Orders]
+	,sum([Gross Pax])	as [Gross Pax]
+	,sum([Net Bookings])	as [Net Bookings]
+	,sum([Net Revenue])	as [Net Revenue]
+	,sum([Net Orders])	as [Net Orders]
+	,sum([Net Pax])		as [Net Pax]
 FROM	CUSTOMER c
 WHERE	c.[Order Date] = 
 		(
